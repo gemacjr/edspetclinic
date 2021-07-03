@@ -32,13 +32,14 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:gemacjr/edspetclinic.git</developerConnection>
-      <tag>HEAD</tag>
+
   </scm>
 
 </project>
