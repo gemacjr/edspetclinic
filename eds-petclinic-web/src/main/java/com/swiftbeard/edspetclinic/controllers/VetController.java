@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinicweb.controllers;
+package com.swiftbeard.edspetclinic.controllers;
 
 
 import org.springframework.stereotype.Controller;
