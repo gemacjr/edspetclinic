@@ -2,15 +2,15 @@ package com.swiftbeard.edspetclinicdata.model;
 
 public class Person {
 
-    private String firstname;
+    private String firstName;
     private String lastName;
 
-    public String getFirstname() {
-        return firstname;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public void setFirstname(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {

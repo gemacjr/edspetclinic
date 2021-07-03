@@ -39,7 +39,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:gemacjr/edspetclinic.git</developerConnection>
-
+<tag>0.0.3</tag>
   </scm>
 
 </project>
