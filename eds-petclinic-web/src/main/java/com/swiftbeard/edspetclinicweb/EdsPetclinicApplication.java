@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinic;
+package com.swiftbeard.edspetclinicweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

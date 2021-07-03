@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinic.model;
+package com.swiftbeard.edspetclinicdata.model;
 
 public class PetType {
     private String name;

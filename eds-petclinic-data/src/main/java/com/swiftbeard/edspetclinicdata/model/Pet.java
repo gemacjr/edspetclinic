@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinic.model;
+package com.swiftbeard.edspetclinicdata.model;
 
 import java.time.LocalDate;
 
