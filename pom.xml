@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.swiftbeard</groupId>
     <artifactId>eds-petclinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>eds-petclinic</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -38,7 +38,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:gemacjr/edspetclinic.git</developerConnection>
-      <tag>0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
