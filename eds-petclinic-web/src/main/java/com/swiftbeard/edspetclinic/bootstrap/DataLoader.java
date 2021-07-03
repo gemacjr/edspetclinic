@@ -1,11 +1,9 @@
 package com.swiftbeard.edspetclinic.bootstrap;
 
-import com.swiftbeard.edspetclinicdata.model.Owner;
-import com.swiftbeard.edspetclinicdata.model.Vet;
-import com.swiftbeard.edspetclinicdata.services.OwnerService;
-import com.swiftbeard.edspetclinicdata.services.VetService;
-import com.swiftbeard.edspetclinicdata.services.map.OwnerServiceMap;
-import com.swiftbeard.edspetclinicdata.services.map.VetServiceMap;
+import com.swiftbeard.edspetclinic.model.Owner;
+import com.swiftbeard.edspetclinic.model.Vet;
+import com.swiftbeard.edspetclinic.services.OwnerService;
+import com.swiftbeard.edspetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -16,9 +14,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

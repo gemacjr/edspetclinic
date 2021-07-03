@@ -1,10 +1,12 @@
-package com.swiftbeard.edspetclinicdata.services.map;
+package com.swiftbeard.edspetclinic.services.map;
 
-import com.swiftbeard.edspetclinicdata.model.Owner;
-import com.swiftbeard.edspetclinicdata.services.OwnerService;
+import com.swiftbeard.edspetclinic.model.Owner;
+import com.swiftbeard.edspetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {

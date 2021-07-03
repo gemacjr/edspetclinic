@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinicdata.services;
+package com.swiftbeard.edspetclinic.services;
 
 import java.util.Set;
 

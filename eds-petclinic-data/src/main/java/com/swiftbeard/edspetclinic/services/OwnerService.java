@@ -1,6 +1,6 @@
-package com.swiftbeard.edspetclinicdata.services;
+package com.swiftbeard.edspetclinic.services;
 
-import com.swiftbeard.edspetclinicdata.model.Owner;
+import com.swiftbeard.edspetclinic.model.Owner;
 
 
 public interface OwnerService extends CrudService<Owner, Long>{

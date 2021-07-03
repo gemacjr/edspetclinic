@@ -1,4 +1,4 @@
-package com.swiftbeard.edspetclinicdata.model;
+package com.swiftbeard.edspetclinic.model;
 
 
 

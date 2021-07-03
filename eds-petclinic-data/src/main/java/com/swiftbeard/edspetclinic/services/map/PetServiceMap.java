@@ -1,10 +1,13 @@
-package com.swiftbeard.edspetclinicdata.services.map;
+package com.swiftbeard.edspetclinic.services.map;
 
-import com.swiftbeard.edspetclinicdata.model.Pet;
-import com.swiftbeard.edspetclinicdata.services.CrudService;
+import com.swiftbeard.edspetclinic.model.Pet;
+import com.swiftbeard.edspetclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
     @Override
     public Set<Pet> findAll() {
